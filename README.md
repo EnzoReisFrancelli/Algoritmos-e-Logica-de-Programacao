@@ -1,19 +1,24 @@
-# Lógica de Programação – VisualG
+# 📘 Lógica de Programação com VisualG
 
-Este repositório contém exercícios e desafios desenvolvidos durante meu curso de
-Algoritmos e Lógica de Programação (Udemy).
+Este repositório contém **exercícios e exemplos práticos de lógica de programação**, desenvolvidos em **VisualG (POR ENQUANTO)**, com foco no aprendizado dos conceitos fundamentais da programação feitos durante o curso de Algoritmos e Lógica de Programação (Udemy Academy).
 
-📌 Objetivo:
-Consolidar a base lógica necessária para o aprendizado de linguagens como
-C, C++, C#, Java e Python.
+📌 O objetivo é consolidar a base lógica necessária para evoluir para linguagens como **Python, Java, C, C++ e C#** .
 
-🧠 Conteúdos abordados:
+**---**
+
+🧠 Conteúdos abordados
+
+Os exercícios trabalham conceitos essenciais, como:
+
 - Entrada e saída de dados
-- Estruturas condicionais
-- Laços de repetição
-- Vetores e matrizes
-- Funções e procedimentos
+- Variáveis e tipos primitivos
+- Estruturas condicionais (`se`, `senao`)
+- Estruturas de repetição (`para`, `enquanto`, `repita`)
+- Vetores
+- Algoritmos básicos
 - Resolução de problemas lógicos
+
+**---**
 
 ⚠️ Observação:
 Os algoritmos estão escritos em Portugol (VisualG) por se tratar da fase inicial
