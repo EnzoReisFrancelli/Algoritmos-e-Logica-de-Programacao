@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main(){
+
+    int n, nmenores;
+    double mediaAltura, soma, percentualMenores;
+
+    printf("Quantas pessoas serao digitadas? ");
+    scanf("%d", &n);
+
+    char nomes[n][50];
+    int idades[n];
+    double alturas[n];
+
+    for(int i=0; i<n; i++){
+        printf("\nDados da %da pessoa:\n", i+1);
+        printf("Nome: ");
+        fseek(stdin, 0, SEEK_END);
+        gets(nomes[i]);
+        printf("Idade: ");
+        scanf("%d", &idades[i]);
+        printf("Altura: ");
+        scanf("%lf", &alturas[i]);
+    }
+
+    soma = 0;
+    for(int i=0; i<n; i++){
+        soma = soma + alturas[i];
+    }
+    mediaAltura = soma / n;
+    printf("\nMEDIA DAS ALTURAS: %.2lf\n", mediaAltura);
+
+    nmenores = 0;
+    for(int i=0; i<n; i++){
+        if(idades[i] < 16){
+            nmenores = nmenores + 1;
+        }
+    }
+    percentualMenores = nmenores * 100.0 / n;
+    printf("\nPESSOAS COM MENOS DE 16 ANOS: %.1lf %%\n", percentualMenores);
+
+    return 0;
+}
