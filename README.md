@@ -12,8 +12,8 @@ Os exercícios trabalham conceitos essenciais, como:
 
 - Entrada e saída de dados
 - Variáveis e tipos primitivos
-- Estruturas condicionais (`se`, `senao`)
-- Estruturas de repetição (`para`, `enquanto`, `repita`)
+- Estruturas condicionais (`se`, `senao`,...)
+- Estruturas de repetição (`para`, `enquanto`, `repita`,...)
 - Vetores
 - Matrizes
 - Algoritmos básicos
